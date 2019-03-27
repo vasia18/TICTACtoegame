@@ -131,7 +131,7 @@ public class BoardView<ELT_STROKE_WIDTH> extends View {
 
             float startX2 = (eltw *x) + ELT_MARGIN;
             float startY2 = (elth *y) + ELT_MARGIN;
-            float endx2 = 
+            float endx2 =
 
 
         }
