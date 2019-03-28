@@ -10,12 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:uiOptions="splitActionBarWhenNarrow"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activities.TicTacToe"
-            android:label="@string/title_activity_about"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".TicTacToe"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,22 +25,9 @@
 
         </activity>
 
-        android:label="@string/about_title" android:name=".activities.About"
-        android:theme="@android:style/Theme.Dialog">
-    </activity>
+        <activity android:name=".About"/>
+        <activity android:name=".Option"/>
+        <activity android:name=".Main"/>
 
-    <activity
-        android:name=".Options"
-        android:label="@string/options_label">
-
-    </activity>
-
-    <activity
-        android:name=".Game"
-        android:label="@string/app_name"
-        android:screenOrientation="portrait">
-
-    </activity>
-
-</application>
+    </application>
     </manifest>
