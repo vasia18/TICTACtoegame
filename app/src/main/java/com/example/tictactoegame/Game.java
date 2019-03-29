@@ -34,6 +34,8 @@ public class Game extends Activity implements OnClickListener {
 
         for (Button btn : buttons) {
             btn.setOnClickListener(this);
+
+
         }
 
         findViewById(R.id.human_vs_droid).setOnClickListener(this);
@@ -134,5 +136,4 @@ public class Game extends Activity implements OnClickListener {
             showRestartDialog();
         }
     }
-
 }
