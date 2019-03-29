@@ -25,7 +25,7 @@ public class Options extends AppCompatActivity {
 
     private void initButton() {
 
-        RadioButton easy = (RadioButton) findViewById(R.id.easy_radiobutton);
+        RadioButton easy = findViewById(R.id.easy_radiobutton);
         easy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class Options extends AppCompatActivity {
             }
         });
 
-        RadioButton medium = (RadioButton) findViewById(R.id.medium_radiobutton);
+        RadioButton medium = findViewById(R.id.medium_radiobutton);
         medium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +41,7 @@ public class Options extends AppCompatActivity {
             }
         });
 
-        RadioButton hard = (RadioButton) findViewById(R.id.hard_radiobutton);
+        RadioButton hard = findViewById(R.id.hard_radiobutton);
         hard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
